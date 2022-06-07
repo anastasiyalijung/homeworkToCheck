@@ -13,13 +13,13 @@ function getModa(...n){
 console.log(getModa(3, 8, 65, 45, 76, 54, 7, 87, 5, 43, 67, 54, 21, 12, 9));
 
 //function 3
-const getAvarage = (...n) => {
+const getAverage = (...n) => {
     const myArr = n.filter(value => Number.isInteger(value) )
     const sum = myArr
         .reduce((a, b) => a + b);
     return sum / myArr.length;
 }
-console.log(getAvarage(87, 4, 5, 6, 67.4, 4.67, 38, 67));
+console.log(getAverage(87, 4, 5, 6, 67.4, 4.67, 38, 67));
 
 
 
